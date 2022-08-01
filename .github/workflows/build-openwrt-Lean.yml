@@ -9,13 +9,13 @@
 name: build-openwrt-Lean
 
 on:
-# release:
-#   types: published
-# push:
-#   branches:
-#     - master
-#   paths:
-#     - 'Lean'
+ release:
+   types: published
+ push:
+   branches:
+     - master
+   paths:
+     - 'Lean'
    schedule:
      - cron: 0 18 * * *
    watch:
